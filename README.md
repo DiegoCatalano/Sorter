@@ -9,6 +9,7 @@ The project is organized under the same architecture found in [Catalano Framewor
   - Bogo Sort
   - Insertion Sort
   - Shell Sort
+  - Bucket Sort
   - Merge Sort
   - Heap Sort
   - Quick Sort
