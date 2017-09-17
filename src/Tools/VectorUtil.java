@@ -42,7 +42,22 @@ public final class VectorUtil implements Serializable{
     
     private static Random r = new Random();
 
-    private VectorUtil() {}
+    /**
+     * Initializes a new instance of the VectorUtil class.
+     */
+    public VectorUtil() {}
+    
+    /**
+     * Initializes a new instance of the VectorUtil class.
+     * @param seed Random seed generator.
+     */
+    public VectorUtil(long seed){
+        setSeed(seed);
+    }
+    
+    public void setSeed(long seed){
+        r.setSeed(seed);
+    }
     
     /**
      * Generate random vector.
