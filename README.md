@@ -12,7 +12,8 @@ The project is organized under the same architecture found in [Catalano Framewor
   - Bucket Sort
   - Merge Sort
   - Heap Sort
-  - Quick Sort
+  - Quick Sort 
+  - Dual Pivot Quicksort
 
 Version
 ----
